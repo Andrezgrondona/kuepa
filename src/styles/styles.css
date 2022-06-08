@@ -1,0 +1,161 @@
+
+/* --------------------------------- TEXTOS --------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.App{
+    color: none
+}
+
+.banner_info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:inline-flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    width: 100%;
+    font-size: 30px;
+    height: 100px;
+    background-color: #fd531e;
+    text-align: center;
+    font-family: Barlow, sans-serif;
+    border-radius: 10px;
+    }
+
+.listaLlamar{
+    font-size: 15px;
+    height: auto;
+    width: 35%;
+    background-color: #e4e4e6;
+    font-family: Barlow, sans-serif;
+    border-radius: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;   
+}
+
+.listaMensajes{
+    font-size: 15px;
+    height: auto;
+    width: 35%;
+    background-color: #e4e4e6;
+    font-family: Barlow, sans-serif;
+    border-radius: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;   
+}
+
+.fondo{
+    width: 100%;
+    display:inline-flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    align-content:center;
+}
+
+.txt_metas{
+    
+    font-size: 25px;
+    height: auto;
+    width: 50%;
+    background-color: #e4e4e6;
+    font-family: Barlow, sans-serif;
+    border-radius: 10px;
+    text-align: center;   
+}
+
+.calls{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    align-items:center;
+    align-content:center;
+    color: white;
+}
+
+.reto{
+    font-family: Barlow, sans-serif;
+    height: 100px;
+    width: 100px;
+    background-color: #fd531e;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* ---------------------------------- GRID ---------------------------------- */
+.parent {
+    border-radius: 20px;
+    height: 300px;
+    width: 100%;
+    background-color: #e4e4e6;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 7px;
+    
+    }
+    
+    .div1 { grid-area: 1 / 1 / 5 / 13;
+        padding-top: 50px;
+
+        padding-left: 100px;
+        padding-right: 100px;
+        border-radius: 20px;
+        height: auto;
+        width: auto;
+        background-color:rgb(129, 129, 135)  
+    }
+    .div2 { grid-area: 5 / 1 / 9 / 6;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-around;
+        align-items:center;
+        align-content:center;
+        border-radius: 20px;
+        height: auto;
+        width: auto;
+        background-color:rgb(129, 129, 135)   
+     }
+    .div3 { grid-area: 5 / 6 / 9 / 9; 
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-around;
+        align-items:center;
+        align-content:center;
+        border-radius: 20px;
+        height: auto;
+        width: auto;
+        background-color:rgb(129, 129, 135)
+    }
+    .div4 { grid-area: 5 / 9 / 9 / 13;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-around;
+        align-items:center;
+        align-content:center;
+        border-radius: 20px;
+        height: auto;
+        width: auto;
+        background-color:rgb(129, 129, 135)}
+    
+/* ---------------------------------- GRID ---------------------------------- */
